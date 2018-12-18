@@ -9,3 +9,7 @@ class VIP(IntEnum):
   YELLOW_ALIAS = '1'
 
 print(VIP.YELLOW)
+
+a = 1
+print(VIP(a))
+print(VIP(3))
